@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas' Personal Website</title>
+    <style>
+	  /* General Styles */
+        body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Color Palette */
+:root {
+    --dark-maroon: #562731;
+    --vibrant-red: #FC515B;
+    --light-pink: #F05F73;
+    --white: #FEFEFE;
+}
+
+/* Body Styling */
+body {
+    background-color: var(--white);
+    color: var(--dark-maroon);
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--vibrant-red);
+    color: var(--white);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--dark-maroon);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--light-pink);
+}
+/* Profile Card */
+        .profile-card {
+            background: #FF8C00;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #007bff;
+            margin-bottom: 20px;
+			
+        }
+
+        .profile-card h2 {
+            font-size: 28px;
+            margin-top: 10px;
+			
+        }
+
+        .profile-card p {
+            font-size:21px;
+            color: black;
+            margin: 15px 0;
+            line-height: 1.5;
+}
+
+.specialization-container {
+    text-align: center;
+    padding: 20px;
+	font-family: Verdana;
+}
+
+.specialization-header {
+    display: inline-block; /* Makes the background fit only the text */
+    padding: 10px 30px;
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.specialization-header h2 {
+    color: black;
+    margin: 0;
+    font-size: 28px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.image-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+	
+}
+section {
+            margin: 20px;
+            padding: 10px;
+            background-color: #FF8C00;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Sections */
+h2 {
+    color: black;
+    margin-top: 20px;
+}
+
+.moving-footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #FF8C00; /* Orange background */
+    color: white;
+    padding: 2px 0; /* Reduce height */
+    font-size: 15px; /* Adjust text size */
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+	
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.marquee p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite; /* Continuous scrolling with no delay */
+    min-width: 200%; /* Makes sure text wraps continuously */
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    
+}
+	</style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/Profile.html">Profile</a></li>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/Family.html">Family</a></li>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/School%20Life.html">School Life</a></li>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/Specialization.html">Specialization</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <div class="profile-card">
+        <h2>About This Website</h2>
+        <p>Hi! My name is Thomas Lorenz A. Baldivia, and I’m happy to welcome you to my personal website. This is a special space where you can get to know me better, who I am, where I come from, and the things that are important to me.</p>
+		
+
+        <p>Here, you’ll find stories about my life, my family, and my experiences in school. I believe that every person has a unique journey, and this is mine. I grew up in San Jose, Antique, a place where the mountains meet the sea and where I’ve made so many memories. My family means the world to me, and I want to share a little bit about them, how they have shaped me, supported me, and helped me become the person I am today.</p>
+		
+
+        <p>You can also read about my school life, from my elementary years to my current journey as a Grade 10 student in the Special Program in the Arts at Antique National School. School has been a big part of my life, filled with challenges, new friendships, and experiences that I will always carry with me.</p>
+		
+		
+
+        <p>This website is like a window into my world, and I hope that by exploring it, you’ll learn more about me, not just as a student but as a person. Thank you for visiting, and I hope you enjoy getting to know me.</p>
+    </div>
+   
+    <footer class="moving-footer">
+    <div class="marquee">
+        <p>
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA • 
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA • 
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA • 
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA
+        </p>
+    </div>
+    </footer>
+	
+</body>
+</html>

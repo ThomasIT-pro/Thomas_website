@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Specialization</title>
+   <style>
+	 /* General Styles */
+        body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Color Palette */
+:root {
+    --dark-maroon: #562731;
+    --vibrant-red: #FC515B;
+    --light-pink: #F05F73;
+    --white: #FEFEFE;
+}
+
+/* Body Styling */
+body {
+    background-color: var(--white);
+    color: var(--dark-maroon);
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--vibrant-red);
+    color: var(--white);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--dark-maroon);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: var(--light-pink);
+}
+/* Profile Card */
+        .profile-card {
+            background: #FF8C00;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        .profile-card img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #007bff;
+            margin-bottom: 20px;
+			
+        }
+
+        .profile-card h2 {
+            font-size: 28px;
+            margin-top: 10px;
+			
+        }
+
+        .profile-card p {
+            font-size: 18px;
+            color: black;
+            margin: 15px 0;
+            line-height: 1.5;
+}
+
+.specialization-container {
+    text-align: center;
+    padding: 20px;
+	font-family: Verdana;
+}
+
+.specialization-header {
+    display: inline-block; /* Makes the background fit only the text */
+    padding: 10px 30px;
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.specialization-header h2 {
+    color: black;
+    margin: 0;
+    font-size: 28px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.image-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid black;
+	
+}
+section {
+            margin: 20px;
+            padding: 10px;
+            background-color: #FF8C00;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Sections */
+h2 {
+    color: black;
+    margin-top: 20px;
+}
+
+.moving-footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #FF8C00; /* Orange background */
+    color: white;
+    padding: 2px 0; /* Reduce height */
+    font-size: 15px; /* Adjust text size */
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+	
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.marquee p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite; /* Continuous scrolling with no delay */
+    min-width: 200%; /* Makes sure text wraps continuously */
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    
+}
+	</style>
+</head>
+<body>
+
+    <header>
+        <h1>My Specialization</h1>
+        <nav>
+            <ul>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/Home.html">Home</a></li>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/Profile.html">Profile</a></li>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/Family.html">Family</a></li>
+                <li><a href="C:/Users/Administrator/Desktop/index.html/School%20Life.html">School Life</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+	
+	<div class="profile-card">
+        <h2>Visual Art</h2>
+        <p>Visual Arts is more than just drawing and painting it’s a way of expressing myself without words. As a Special Program in the Arts (SPA) Visual Art student, I explore different techniques, materials, and styles to bring my ideas to life. Each artwork I create reflects my thoughts, emotions, and how I see the world.</p>
+
+        <p>Studying Visual Arts has taught me patience, creativity, and dedication. I’ve learned the basics shading, perspective, and color theory which help make my art more expressive. I also enjoy experimenting with different materials, from pencils and paints to digital tools, allowing me to discover my style.</p>
+
+        <p>Beyond technique, art is also about storytelling and self-expression. Through my works, I can share emotions, raise awareness, or simply create something meaningful. Learning about famous artists and their styles inspires me and shows how art connects people across time and cultures.</p>
+
+        <p>As I continue my journey, I aim to improve my skills and build a strong portfolio. Whether I become a painter, illustrator, graphic designer, or art teacher, I know that art will always be a part of my life. It’s a passion that lets me see the world differently and communicate in ways words cannot.</p>
+    </div>
+	
+    <div class="specialization-container">
+    <div class="specialization-header">
+        <h2>My work</h2>
+    </div>
+	
+    <div class="image-gallery">
+        <div class="image-item">
+            <img src="482007160_1357296049026746_2706378725758975780_n.jpg">
+        </div>
+        <div class="image-item">
+            <img src="482534762_4072472306408769_9052326252382252597_n.jpg">
+        </div>
+        <div class="image-item">
+            <img src="482757955_602212896135252_2882625229187928260_n.jpg"> 
+        </div>
+		<div class="image-item">
+            <img src="482780068_1400593487767965_8786067133611504140_n.jpg">
+        </div>
+		<div class="image-item">
+            <img src="482521035_983281933374044_6854572466810867436_n.jpg">
+        </div>
+    </div>
+    </div>
+		
+    </main>
+
+     <footer class="moving-footer">
+    <div class="marquee">
+        <p>
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA • 
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA • 
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA • 
+            Thomas Lorenz A. Baldivia 10-SPA • Thomas Lorenz A. Baldivia 10-SPA
+        </p>
+    </div>
+    </footer>
+	
+</body>
+</html>
+
+
